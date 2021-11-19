@@ -35,6 +35,8 @@ namespace CmsShoppingCart
 
             });
 
+            services.AddRouting(options => options.LowercaseUrls = true);
+
             services.AddControllersWithViews();
 
             services.AddDbContext<CmsShoppingCartContext>(options => options.UseSqlServer
