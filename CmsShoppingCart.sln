@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmsShoppingCart", "CmsShoppingCart\CmsShoppingCart.csproj", "{2FE3CF8C-1685-4DE8-8BB1-22892E0FFFA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CmsShoppingCart", "CmsShoppingCart\CmsShoppingCart.csproj", "{2FE3CF8C-1685-4DE8-8BB1-22892E0FFFA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAPI", "..\RestAPI\RestAPI\RestAPI.csproj", "{EB3FA6ED-19C1-483E-BA5E-656508615157}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestClient", "..\RestClient\RestClient\RestClient.csproj", "{410F31AB-4F8C-4D1D-A6BD-1CF1B4F72FC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2FE3CF8C-1685-4DE8-8BB1-22892E0FFFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FE3CF8C-1685-4DE8-8BB1-22892E0FFFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FE3CF8C-1685-4DE8-8BB1-22892E0FFFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3FA6ED-19C1-483E-BA5E-656508615157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3FA6ED-19C1-483E-BA5E-656508615157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3FA6ED-19C1-483E-BA5E-656508615157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3FA6ED-19C1-483E-BA5E-656508615157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410F31AB-4F8C-4D1D-A6BD-1CF1B4F72FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410F31AB-4F8C-4D1D-A6BD-1CF1B4F72FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410F31AB-4F8C-4D1D-A6BD-1CF1B4F72FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410F31AB-4F8C-4D1D-A6BD-1CF1B4F72FC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
